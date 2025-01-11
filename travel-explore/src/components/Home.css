@@ -1,0 +1,103 @@
+.home {
+    padding: 20px;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    color: #0c0404;
+  }
+  
+  .hero h4 {
+    font-size: 20px;
+    color: #110606;
+  }
+  
+  .state-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+  }
+  
+  .state-card {
+    width: 16%; 
+    height: 250px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .state-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .state-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .state-card h3 {
+    font-size: 18px;
+    color: #0a0101;
+    margin-top: 10px;
+  }
+  
+  .state-details {
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #ffffff;
+    border: 1px solid white; 
+    padding: 20px; 
+    box-shadow: white;
+    border-radius: 8px;
+  }
+  
+  
+  
+  .state-details h2 {
+    font-size: 28px;
+    color: #0a0505;
+    background-color: white;
+  }
+  
+  .state-details p {
+    font-size: 18px;
+    color: #090808;
+    background-color: white;
+  }
+  
+  .places-row {
+    display: flex;
+    overflow-x: auto;
+    margin-top: 20px;
+    background-color: white;
+  }
+  
+  .place-card {
+    min-width: 200px;
+    margin-right: 20px;
+    text-align: center;
+    
+  }
+  
+  .place-card img {
+    width: 100%;
+    height: 120px;
+    
+    border-radius: 8px;
+  }
+  
+  .place-card p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #0d0a0a;
+  }

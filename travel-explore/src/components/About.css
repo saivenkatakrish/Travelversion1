@@ -1,0 +1,33 @@
+.about-container {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    height: 100vh;
+    background: url("https://www.protectiveagency.com/blog/wp-content/uploads/2018/04/Motorcycle-Sunset.jpg")
+      no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    padding-left: 50px; 
+    
+  }
+  
+.about-content {
+    max-width: 800px;
+    text-align: left; 
+}
+  
+  .about-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px; 
+    color: orange;
+    font-style: oblique;
+  }
+  
+  .about-content p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: rgb(255, 240, 220);
+    margin-top: 10px; 
+  }
+  
